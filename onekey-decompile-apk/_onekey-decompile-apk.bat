@@ -3,6 +3,8 @@
 echo ***********************************
 echo 一步到位反编译apk工具(onekey decompile apk)
 echo ==================================
+echo v1.0.2 20170326 将apktool升级到2.0.3, 最新的一个支持SmaliDebugging的版本
+echo https://connortumbleson.com/2015/12/31/apktool-v2-0-3-released/
 echo v1.0.1 20121022 将apktool降到1.4.1(原来是1.4.3), 只有这个版本能进行SmaliDebugging
 echo http://d-kovalenko.blogspot.com/2012/08/debugging-smali-code-with-apk-tool-and.html
 
@@ -36,7 +38,7 @@ cd /d %apkFile%\..
 
 
 echo .........apktool..........
-java -jar "_tools\apktool\apktool-1.4.1.jar" d -d -f "%apkFile%"
+java -jar "_tools\apktool\apktool-2.0.3.jar" d -d -f "%apkFile%"
 echo .........dex2jar..........
 call _tools\dex2jar\d2j-dex2jar -f "%apkFile%" -o "%jarFile%"
 echo .........jd-gui...........

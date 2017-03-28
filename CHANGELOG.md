@@ -22,6 +22,11 @@
 _inject_classes D:\TestSmaliInject\build\classes D:\TestSmali\smali
 ```
 
+# jad-decompile-apk v1.0.0 #
+2017-03-28
+
+增加jadx反编译工具
+
 # onekey-decompile-apk v1.0.2 #
 2017-03-28
 

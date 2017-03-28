@@ -52,8 +52,7 @@ Automatically exported from code.google.com/p/onekey-decompile-apk
 * [如何反编译android程序](http://doandroid.info/%E5%A6%82%E4%BD%95%E5%8F%8D%E7%BC%96%E8%AF%91android%E7%A8%8B%E5%BA%8F/)
 
 ## 更新 ##
-* 2017-03-28: onekey-decompile-apk v1.0.2 更新jd-gui到最新版本（1.4.0）
-* 2017-03-26: onekey-decompile-apk v1.0.2 更新ApkTool到最后一个支持SmaliDebugging的版本（2.0.3）
+* 2017-03-28: onekey-decompile-apk v1.0.2 更新ApkTool到最后一个支持SmaliDebugging的版本（2.0.3），更新jd-gui到最新版本（1.4.0）
 * 2012-10-24: inject\_classes v1.0 将自己写的class混编(注入)到需要反编译的apk(mix/inject classes2apk) [Changes](https://github.com/singun-lxd/onekey-decompile-apk/blob/master/CHANGELOG.md#inject_classes-v10)
 * 2012-10-22: onekey-decompile-apk v1.0.1 将apktool降到1.4.1(原来是1.4.3), 只有这个版本能进行SmaliDebugging [Changes](https://github.com/singun-lxd/onekey-decompile-apk/blob/master/CHANGELOG.md#onekey-decompile-apk-v101)
 * 2012-10-22: 新的一步到位打包apk(签名, 安装)工具(onekey build-sign-install apk). [Changes](https://github.com/singun-lxd/onekey-decompile-apk/blob/master/CHANGELOG.md#build_sign_install-v10)

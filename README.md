@@ -1,9 +1,10 @@
 # onekey-decompile-apk
 一步到位反编译apk工具(onekey decompile apk)
 
-v1.0.2 2017-03-26
+v1.0.2 2017-03-28
 
 更新ApkTool到最后一个支持SmaliDebugging的版本（2.0.3）
+更新jd-gui到最新版本（1.4.0）
 
 v1.0.1 2012-10-24
 
@@ -28,18 +29,18 @@ Automatically exported from code.google.com/p/onekey-decompile-apk
     * 会在`onekey-decompile-apk`目录下生成和apk同名的jar文件(dex2jar反编译出来的class)
 
 ## 运用工具(非常感谢他们) ##
-1. [apktool](http://code.google.com/p/android-apktool/)反编译出apk中的资源文件, 例如AndroidManifest.xml和res
+1. [apktool](https://github.com/iBotPeaches/Apktool)反编译出apk中的资源文件, 例如AndroidManifest.xml和res
 
    ```
    java -jar apktool.jar d -d xxx.apk
    ```
-2. [dex2jar](http://code.google.com/p/dex2jar/)反编译出apk中的class
+2. [dex2jar](https://github.com/pxb1988/dex2jar)反编译出apk中的class
 
    ```
    // dex2jar is deprecated, use the d2j-dex2jar
    d2j-dex2jar xxx.apk
    ```
-3. [jd-ui](http://java.decompiler.free.fr/?q=jdgui)/[jad](http://www.varaneckas.com/jad/)反编译class为java源文件
+3. [jd-ui](https://github.com/java-decompiler/jd-gui)/[jad](http://www.varaneckas.com/jad/)反编译class为java源文件
 
    > 反编译工具还是jad最强, JD-GUI只是方便反编译/查看整个jar而已, 反编译出来的代码不全,
    > 
@@ -51,6 +52,7 @@ Automatically exported from code.google.com/p/onekey-decompile-apk
 * [如何反编译android程序](http://doandroid.info/%E5%A6%82%E4%BD%95%E5%8F%8D%E7%BC%96%E8%AF%91android%E7%A8%8B%E5%BA%8F/)
 
 ## 更新 ##
+* 2017-03-28: onekey-decompile-apk v1.0.2 更新jd-gui到最新版本（1.4.0）
 * 2017-03-26: onekey-decompile-apk v1.0.2 更新ApkTool到最后一个支持SmaliDebugging的版本（2.0.3）
 * 2012-10-24: inject\_classes v1.0 将自己写的class混编(注入)到需要反编译的apk(mix/inject classes2apk) [Changes](https://github.com/singun-lxd/onekey-decompile-apk/blob/master/CHANGELOG.md#inject_classes-v10)
 * 2012-10-22: onekey-decompile-apk v1.0.1 将apktool降到1.4.1(原来是1.4.3), 只有这个版本能进行SmaliDebugging [Changes](https://github.com/singun-lxd/onekey-decompile-apk/blob/master/CHANGELOG.md#onekey-decompile-apk-v101)

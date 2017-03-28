@@ -23,6 +23,10 @@ _inject_classes D:\TestSmaliInject\build\classes D:\TestSmali\smali
 ```
 
 # onekey-decompile-apk v1.0.2 #
+2017-03-28
+
+更新jd-gui到最新版本（1.4.0）http://jd.benow.ca/
+
 2017-03-26
 
 更新ApkTool到最后一个支持SmaliDebugging的版本（2.0.3）https://connortumbleson.com/2015/12/31/apktool-v2-0-3-released/
